@@ -1,6 +1,6 @@
 package dtos
 
-import "github.com/melardev/api_blog_app/models"
+import "github.com/melardev/GoGonicBlogApi/models"
 
 func CreateCategoryListDto(categories []models.Category) map[string]interface{} {
 	result := map[string]interface{}{}

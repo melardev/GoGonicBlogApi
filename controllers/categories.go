@@ -2,8 +2,8 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/melardev/api_blog_app/dtos"
-	"github.com/melardev/api_blog_app/services"
+	"github.com/melardev/GoGonicBlogApi/dtos"
+	"github.com/melardev/GoGonicBlogApi/services"
 	"net/http"
 )
 

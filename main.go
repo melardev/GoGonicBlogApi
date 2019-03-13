@@ -6,11 +6,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"github.com/joho/godotenv"
-	"github.com/melardev/api_blog_app/controllers"
-	"github.com/melardev/api_blog_app/infrastructure"
-	"github.com/melardev/api_blog_app/middlewares"
-	"github.com/melardev/api_blog_app/models"
-	"github.com/melardev/api_blog_app/seeds"
+	"github.com/melardev/GoGonicBlogApi/controllers"
+	"github.com/melardev/GoGonicBlogApi/infrastructure"
+	"github.com/melardev/GoGonicBlogApi/middlewares"
+	"github.com/melardev/GoGonicBlogApi/models"
+	"github.com/melardev/GoGonicBlogApi/seeds"
 	"os"
 )
 

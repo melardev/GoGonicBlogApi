@@ -3,7 +3,7 @@ package main
 import (
 	"github.com/icrowley/fake"
 	"github.com/jinzhu/gorm"
-	"github.com/melardev/api_blog_app/models"
+	"github.com/melardev/GoGonicBlogApi/models"
 	"golang.org/x/crypto/bcrypt"
 	"math/rand"
 	"time"

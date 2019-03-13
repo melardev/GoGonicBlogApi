@@ -3,8 +3,8 @@ package services
 import (
 	"errors"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/melardev/api_blog_app/infrastructure"
-	"github.com/melardev/api_blog_app/models"
+	"github.com/melardev/GoGonicBlogApi/infrastructure"
+	"github.com/melardev/GoGonicBlogApi/models"
 	"golang.org/x/crypto/bcrypt"
 	"time"
 )

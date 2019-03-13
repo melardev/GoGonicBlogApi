@@ -32,7 +32,7 @@ func InitDb() *gorm.DB {
 	if dialect == "sqlite3" {
 		db, err = gorm.Open("sqlite3", path.Join(".", "app.db"))
 	} else {
-		// db, err := gorm.Open("mysql", "root:root@/go_api_shop_gonic?charset=utf8")
+		// db, err := gorm.Open("mysql", "root:root@/go_api_blog_gonic?charset=utf8")
 		databaseUrl := fmt.Sprintf("host=%s user=%s password=%s dbname=%s sslmode=disable ", host, username, password, dbName)
 		db, err = gorm.Open(dialect, databaseUrl)
 	}

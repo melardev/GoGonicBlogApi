@@ -1,8 +1,8 @@
 package dtos
 
 import (
-	"github.com/melardev/api_blog_app/models"
-	"github.com/melardev/api_blog_app/utils"
+	"github.com/melardev/GoGonicBlogApi/models"
+	"github.com/melardev/GoGonicBlogApi/utils"
 )
 
 type RegisterRequestDto struct {

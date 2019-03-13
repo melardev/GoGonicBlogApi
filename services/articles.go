@@ -1,8 +1,8 @@
 package services
 
 import (
-	"github.com/melardev/api_blog_app/infrastructure"
-	"github.com/melardev/api_blog_app/models"
+	"github.com/melardev/GoGonicBlogApi/infrastructure"
+	"github.com/melardev/GoGonicBlogApi/models"
 )
 
 func IsLikedBy(article *models.Article, user models.User) bool {
